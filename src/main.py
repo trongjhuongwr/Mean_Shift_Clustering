@@ -101,7 +101,7 @@ def main():
     cluster_stats.to_csv(f'{results_dir}/cluster_statistics.csv')
     
     # Lưu metric đánh giá
-    with open(f'{results_dir}/metrics.txt', 'w') as f:
+    with open(f'{results_dir}/metrics.txt', 'w', encoding='utf-8') as f:
         f.write(f'Phương pháp tiền xử lý: {args.preprocess}\n')
         f.write(f'Bandwidth: {bandwidth}\n')
         f.write(f'Kernel: {args.kernel}\n')

@@ -1,0 +1,6 @@
+Phương pháp tiền xử lý: normalize
+Bandwidth: 0.00950595847373719
+Kernel: gaussian
+Số lượng cụm: 747
+Silhouette Score: 0.2793
+Davies-Bouldin Score: 0.1558
